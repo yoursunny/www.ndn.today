@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NDN.today - Practical Named Data Networking Today</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css">
+<style>
+h1:before { display:inline-block; width:100px; height:100px; content:""; margin-right:1em; background:url(logo.svg) no-repeat; }
+table th:nth-child(1) { width:25%; }
+table th:nth-child(2) { width:10%; }
+table th:nth-child(3) { width:15%; }
+table th:nth-child(4) { width:50%; }
+</style>
+
+<h1>NDN.today</h1>
+<p>A curated collection of Named Data Networking (NDN) code available for practical use today.</p>
+
+<section>
+<h2>Forwarders and Infrastructure Services</h2>
+<table>
+  <thead>
+    <tr>
+      <th>project</th>
+      <th>docs</th>
+      <th>platform</th>
+      <th>activity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/named-data/NFD">NFD</a></td>
+      <td><a href="https://named-data.net/doc/NFD/current/"><i class="fa fa-book"></i></a></td>
+      <td>
+        <i class="fa fa-linux"></i>
+        <i class="fa fa-apple"></i>
+      </td>
+      <td>
+        <a href="https://github.com/named-data/NFD"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/named-data/NFD?style=flat-square"></a>
+        <a href="https://redmine.named-data.net/projects/nfd/issues"><img alt="Redmine issues" src="https://img.shields.io/badge/dynamic/json?label=open%20issues&query=total_count&url=https%3A%2F%2Fredmine.named-data.net%2Fissues.json%3Fproject_id%3D11%26subproject_id%3D%21%2A%26status_id%3Dopen%26limit%3D1&style=flat-square"></a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://nfd-nightly.ndn.today/">NFD nightly packages</a></td>
+      <td><a href="https://yoursunny.com/t/2020/NFD-nightly/"><i class="fa fa-book"></i></a></td>
+      <td>
+        <i class="fa fa-linux"></i>
+      </td>
+      <td>
+        <a href="https://nfd-nightly.ndn.today/"><img alt="GitHub Workflow Status" src="https://img.shields.io/badge/dynamic/json?label=last%20build&query=workflow_runs.0.updated_at&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fyoursunny%2FNFD-nightly%2Factions%2Fruns%3Fper_page%3D1&style=flat-square"></a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/JonnyKong/ndn-python-repo">ndn-python-repo</a></td>
+      <td><a href="https://ndn-python-repo.readthedocs.io/"><i class="fa fa-book"></i></a></td>
+      <td>
+        <i class="fa fa-linux"></i>
+        <i class="fa fa-apple"></i>
+      </td>
+      <td>
+        <a href="https://github.com/JonnyKong/ndn-python-repo"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JonnyKong/ndn-python-repo?style=flat-square"></a>
+        <a href="https://github.com/JonnyKong/ndn-python-repo/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/JonnyKong/ndn-python-repo?style=flat-square"></a>
+        <a href="https://pypi.org/project/ndn-python-repo/"><img alt="PyPI" src="https://img.shields.io/pypi/v/ndn-python-repo?style=flat-square"></a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/usnistgov/ndn-dpdk">NDN-DPDK</a></td>
+      <td><a href="https://godoc.org/github.com/usnistgov/ndn-dpdk"><i class="fa fa-book"></i></a></td>
+      <td>
+        <i class="fa fa-linux"></i>
+      </td>
+      <td>
+        <a href="https://github.com/usnistgov/ndn-dpdk"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/usnistgov/ndn-dpdk?style=flat-square"></a>
+        <a href="https://github.com/usnistgov/ndn-dpdk/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/usnistgov/ndn-dpdk?style=flat-square"></a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yoursunny/NDNts-CA">Personal CA</a></td>
+      <td>&nbsp;</td>
+      <td>
+        <i class="fa fa-linux"></i>
+        <i class="fa fa-windows"></i>
+      </td>
+      <td>
+        <a href="https://github.com/yoursunny/NDNts-CA"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/yoursunny/NDNts-CA?style=flat-square"></a>
+        <a href="https://github.com/yoursunny/NDNts-CA/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/yoursunny/NDNts-CA?style=flat-square"></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</section>
+
+<section>
+<h2>Application Development Libraries</h2>
+<table>
+  <thead>
+    <tr>
+      <th>project</th>
+      <th>docs</th>
+      <th>language</th>
+      <th>activity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/named-data/ndn-cxx">ndn-cxx</a></td>
+      <td><a href="https://named-data.net/doc/ndn-cxx/current/"><i class="fa fa-book"></i></a></td>
+      <td>C++</td>
+      <td>
+        <a href="https://github.com/named-data/ndn-cxx"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/named-data/ndn-cxx?style=flat-square"></a>
+        <a href="https://redmine.named-data.net/projects/ndn-cxx/issues"><img alt="Redmine issues" src="https://img.shields.io/badge/dynamic/json?label=open%20issues&query=total_count&url=https%3A%2F%2Fredmine.named-data.net%2Fissues.json%3Fproject_id%3D12%26subproject_id%3D%21%2A%26status_id%3Dopen%26limit%3D1&style=flat-square"></a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yoursunny/NDNts">NDNts</a></td>
+      <td><a href="https://yoursunny.com/p/NDNts/"><i class="fa fa-book"></i></a></td>
+      <td>TypeScript &amp; JavaScript</td>
+      <td>
+        <a href="https://github.com/yoursunny/NDNts"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/yoursunny/NDNts?style=flat-square"></a>
+        <a href="https://github.com/yoursunny/NDNts/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/yoursunny/NDNts?style=flat-square"></a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/zjkmxy/python-ndn">python-ndn</a></td>
+      <td><a href="https://python-ndn.readthedocs.io/"><i class="fa fa-book"></i></a></td>
+      <td>Python</td>
+      <td>
+        <a href="https://github.com/zjkmxy/python-ndn"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/zjkmxy/python-ndn?style=flat-square"></a>
+        <a href="https://github.com/zjkmxy/python-ndn/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/zjkmxy/python-ndn?style=flat-square"></a>
+        <a href="https://pypi.org/project/python-ndn/"><img alt="PyPI" src="https://img.shields.io/pypi/v/python-ndn?style=flat-square"></a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/usnistgov/ndn-dpdk/tree/master/ndn">NDNgo</a></td>
+      <td><a href="https://godoc.org/github.com/usnistgov/ndn-dpdk/ndn"><i class="fa fa-book"></i></a></td>
+      <td>Go</td>
+      <td>
+        <a href="https://github.com/usnistgov/ndn-dpdk"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/usnistgov/ndn-dpdk?style=flat-square"></a>
+        <a href="https://github.com/usnistgov/ndn-dpdk/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/usnistgov/ndn-dpdk?style=flat-square"></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</section>
+
+<section>
+<h2>IoT Platforms and Libraries</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>project</th>
+      <th>docs</th>
+      <th>language</th>
+      <th>activity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/yoursunny/NDNph">NDNph</a></td>
+      <td><a href="https://esp8266ndn.ndn.today/"><i class="fa fa-book"></i></a></td>
+      <td>C++</td>
+      <td>
+        <a href="https://github.com/yoursunny/NDNph"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/yoursunny/NDNph?style=flat-square"></a>
+        <a href="https://github.com/yoursunny/NDNph/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/yoursunny/NDNph?style=flat-square"></a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yoursunny/esp8266ndn">esp8266ndn</a></td>
+      <td><a href="https://esp8266ndn.ndn.today/"><i class="fa fa-book"></i></a></td>
+      <td>C++</td>
+      <td>
+        <a href="https://github.com/yoursunny/esp8266ndn"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/yoursunny/esp8266ndn?style=flat-square"></a>
+        <a href="https://github.com/yoursunny/esp8266ndn/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/yoursunny/esp8266ndn?style=flat-square"></a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/named-data-iot/ndn-lite">NDN-Lite</a></td>
+      <td><a href="https://ndn-lite.named-data.net/"><i class="fa fa-book"></i></a></td>
+      <td>C</td>
+      <td>
+        <a href="https://github.com/named-data-iot/ndn-lite"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/named-data-iot/ndn-lite?style=flat-square"></a>
+        <a href="https://github.com/named-data-iot/ndn-lite/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/named-data-iot/ndn-lite?style=flat-square"></a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/named-data-iot/ndn-iot-package-over-posix">NDN-Lite POSIX</a></td>
+      <td><a href="https://ndn-lite.named-data.net/"><i class="fa fa-book"></i></a></td>
+      <td>C</td>
+      <td>
+        <a href="https://github.com/named-data-iot/ndn-iot-package-over-posix"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/named-data-iot/ndn-iot-package-over-posix?style=flat-square"></a>
+        <a href="https://github.com/named-data-iot/ndn-iot-package-over-posix/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/named-data-iot/ndn-iot-package-over-posix?style=flat-square"></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</section>
+
+<footer>
+<p>&copy; yoursunny.com, <a href="https://github.com/yoursunny/www.ndn.today">suggest an edit</a></p>
+</footer>
+
+<script>
+(function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
+;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
+;c.parentNode.insertBefore(a,c)
+})(window,document,"galite","script","https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js");
+if (location.hostname.endsWith(".ndn.today")) {
+  galite("create", "UA-935676-11", "auto");
+  galite("send", "pageview");
+}
+</script>
